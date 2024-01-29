@@ -5,7 +5,7 @@ const Skills = () => {
   const SKILLS = [];
 
   for (let i = 0; i < skills.length; i++) {
-    SKILLS.push(<Icon id={skills[i].id} id1={`id${skills[i].id}`} src={skills[i].img} name={skills[i].name} level={skills[i].level} desc={skills[i].desc} color={skills[i].color} />);
+    SKILLS.push(<Icon id={skills[i].id} id1={`id${skills[i].id}`} src={Object.values(skills[i].img)[0]} name={skills[i].name} level={skills[i].level} desc={skills[i].desc} color={skills[i].color} />);
   }
 
   return (
