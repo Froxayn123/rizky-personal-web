@@ -1,3 +1,9 @@
+import TODOAPPS from "../assets/project-1.png";
+import BOOKSHELFAPPS from "../assets/project-2.png";
+import BOOKHOUSEAPPS from "../assets/project-3.png";
+import LIBRARYAPI from "../assets/project-4.jpeg";
+import LOVELANGUAGEWEB from "../assets/project-5.png";
+
 const projects = [
   {
     id: "todoapps",
@@ -5,7 +11,7 @@ const projects = [
     desc: "A web application using HTML, CSS, JavaScript which can list your to-do list",
     part: "front-end",
     workFor: "individual",
-    img: "assets/project-1.png",
+    img: { TODOAPPS },
     url: "https://froxayn123.github.io/todoapps/",
   },
   {
@@ -14,7 +20,7 @@ const projects = [
     desc: "A web application using ReactJS & Local Web Storage which can list your books",
     part: "front-end",
     workFor: "individual",
-    img: "assets/project-2.png",
+    img: { BOOKSHELFAPPS },
     url: "https://froxayn123.github.io/bookshelfapps/",
   },
   {
@@ -23,7 +29,7 @@ const projects = [
     desc: "A web application using ReactJS which can find books powered by Google Books",
     part: "front-end",
     workFor: "individual",
-    img: "assets/project-3.png",
+    img: { BOOKHOUSEAPPS },
     url: "https://froxayn123.github.io/bookhouse/",
   },
   {
@@ -32,7 +38,7 @@ const projects = [
     desc: "An API using NodeJS & Hapi which can be used for library web",
     part: "back-end",
     workFor: "individual",
-    img: "assets/project-4.jpeg",
+    img: { LIBRARYAPI },
     url: "https://github.com/Froxayn123/library-api",
   },
   {
@@ -41,7 +47,7 @@ const projects = [
     desc: "A web application using ReactJS which can send your Love Language to my email :)",
     part: "front-end",
     workFor: "individual",
-    img: "assets/project-5.png",
+    img: { LOVELANGUAGEWEB },
     url: "https://froxayn123.github.io/love-language-web",
   },
 ];
