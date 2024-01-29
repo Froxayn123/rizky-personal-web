@@ -1,8 +1,8 @@
-import TODOAPPS from "../assets/project-1.png";
-import BOOKSHELFAPPS from "../assets/project-2.png";
-import BOOKHOUSEAPPS from "../assets/project-3.png";
-import LIBRARYAPI from "../assets/project-4.jpeg";
-import LOVELANGUAGEWEB from "../assets/project-5.png";
+import TODOAPPS from "/assets/project-1.png";
+import BOOKSHELFAPPS from "/assets/project-2.png";
+import BOOKHOUSEAPPS from "/assets/project-3.png";
+import LIBRARYAPI from "/assets/project-4.jpeg";
+import LOVELANGUAGEWEB from "/assets/project-5.png";
 
 const projects = [
   {
