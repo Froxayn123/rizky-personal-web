@@ -38,7 +38,7 @@ const Jumbotron = () => {
                 id="rightArrowTalk"
                 text="Download CV"
                 type="button"
-                url="https://drive.usercontent.google.com/download?id=1r_6Jgd354eXrduaDeoqCuv2JDdhCB-45&export=download&authuser=0&confirm=t&uuid=883afbde-2d1a-40f9-85d4-21671742ee32&at=APZUnTXHgUhA9LHBIuNUNdwLjBse:1706003525823"
+                url="https://drive.usercontent.google.com/download?id=1nhHKSan7ByqsMMW3maxRlEm0QjtLX0eW&export=download&authuser=0&confirm=t&uuid=53bacdf0-e727-46e2-81ee-9a46445f5b57&at=APZUnTUOIuBm7SsTFq2uHPcLhSID:1706529368089"
               />
             </div>
             <div className="max-md:flex justify-center items-center">
