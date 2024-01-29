@@ -1,11 +1,11 @@
-import { skills } from "../data/skills";
+import { Skillss } from "../data/Skillss";
 import Icon from "../components/Icon";
 
 const Skills = () => {
   const SKILLS = [];
 
-  for (let i = 0; i < skills.length; i++) {
-    SKILLS.push(<Icon id={skills[i].id} id1={`id${skills[i].id}`} src={skills[i].img} name={skills[i].name} level={skills[i].level} desc={skills[i].desc} color={skills[i].color} />);
+  for (let i = 0; i < Skillss.length; i++) {
+    SKILLS.push(<Icon id={Skillss[i].id} id1={`id${Skillss[i].id}`} src={Skillss[i].img} name={Skillss[i].name} level={Skillss[i].level} desc={Skillss[i].desc} color={Skillss[i].color} />);
   }
 
   return (

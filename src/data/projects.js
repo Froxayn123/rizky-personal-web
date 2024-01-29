@@ -4,7 +4,7 @@ import BOOKHOUSEAPPS from "../assets/project-3.png";
 import LIBRARYAPI from "../assets/project-4.jpeg";
 import LOVELANGUAGEWEB from "../assets/project-5.png";
 
-const projects = [
+const Projects = [
   {
     id: "todoapps",
     name: "to-do apps",
@@ -52,4 +52,4 @@ const projects = [
   },
 ];
 
-export { projects };
+export { Projects };

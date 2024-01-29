@@ -1,13 +1,13 @@
 import Card from "../components/Card";
-import { projects } from "../data/projects";
+import { Projects } from "../data/Projects";
 
 const Portofolio = () => {
-  const Projects = [];
+  const projects = [];
 
-  console.log(projects[0].img);
+  console.log(Projects[0].img);
 
-  for (let i = 0; i < projects.length; i++) {
-    Projects.push(<Card id={projects[i].id} idH1={`idH1${i}`} src={projects[i].img} name={projects[i].name} desc={projects[i].desc} url={projects[i].url} part={projects[i].part} workFor={projects[i].workFor} />);
+  for (let i = 0; i < Projects.length; i++) {
+    projects.push(<Card id={Projects[i].id} idH1={`idH1${i}`} src={Projects[i].img} name={Projects[i].name} desc={Projects[i].desc} url={Projects[i].url} part={Projects[i].part} workFor={Projects[i].workFor} />);
   }
 
   return (
@@ -20,7 +20,7 @@ const Portofolio = () => {
           </div>
           <div className="flex max-md:flex-col ">
             <div id="cardWrapper" className="flex justify-evenly items-center flex-wrap ">
-              {Projects}
+              {projects}
             </div>
           </div>
         </div>
