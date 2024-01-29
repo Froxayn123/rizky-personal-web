@@ -1,4 +1,4 @@
-import { Analytics } from "@vercel/analytics";
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./pages/Navbar";
 import Jumbotron from "./pages/Jumbotron";
 import Portofolio from "./pages/Portofolio";
