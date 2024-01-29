@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics";
 import Navbar from "./pages/Navbar";
 import Jumbotron from "./pages/Jumbotron";
 import Portofolio from "./pages/Portofolio";
@@ -31,6 +32,7 @@ const App = () => {
           <Social />
         </div>
       </footer>
+      <Analytics />
     </>
   );
 };
