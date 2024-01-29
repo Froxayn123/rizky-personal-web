@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect";
-import Academic from "../assets/Academic";
+import Academic from "../components/Academic";
 
 const Navbar = () => {
   return (

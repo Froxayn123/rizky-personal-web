@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import RightArrow from "../assets/RightArrow";
+import RightArrow from "./RightArrow";
 
 const Button = (props) => {
   const onHover = () => {

@@ -4,8 +4,6 @@ import projects from "../data/projects";
 const Portofolio = () => {
   const Projects = [];
 
-  console.log(projects[0].img);
-
   for (let i = 0; i < projects.length; i++) {
     Projects.push(<Card id={projects[i].id} idH1={`idH1${i}`} src={projects[i].img} name={projects[i].name} desc={projects[i].desc} url={projects[i].url} part={projects[i].part} workFor={projects[i].workFor} />);
   }

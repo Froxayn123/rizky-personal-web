@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import Star from "../assets/Star";
+import Star from "./Star";
 
 const Link = (props) => {
   return (

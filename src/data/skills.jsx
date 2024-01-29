@@ -1,15 +1,15 @@
-import HTML from "../assets/HTML.png";
-import CSS from "../assets/CSS.png";
-import JS from "../assets/JS.png";
-import PHP from "../assets/PHP.png";
-import GIT from "../assets/GIT.png";
-import GITHUB from "../assets/Github.png";
-import TAILWINDCSS from "../assets/TailwindCSS.png";
-import BOOTSTRAP from "../assets/Bootstrap.png";
-import MONGODB from "../assets/MongoDB.png";
-import EXPRESSJS from "../assets/ExpressJS.png";
-import REACTJS from "../assets/ReactJS.png";
-import NODEJS from "../assets/NodeJS.png";
+import HTML from "/public/assets/HTML.png";
+import CSS from "/public/assets/CSS.png";
+import JS from "/public/assets/JS.png";
+import PHP from "/public/assets/PHP.png";
+import GIT from "/public/assets/GIT.png";
+import GITHUB from "/public/assets/Github.png";
+import TAILWINDCSS from "/public/assets/TailwindCSS.png";
+import BOOTSTRAP from "/public/assets/Bootstrap.png";
+import MONGODB from "/public/assets/MongoDB.png";
+import EXPRESSJS from "/public/assets/ExpressJS.png";
+import REACTJS from "/public/assets/ReactJS.png";
+import NODEJS from "/public/assets/NodeJS.png";
 
 const skills = [
   {
