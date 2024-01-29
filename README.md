@@ -1,8 +1,11 @@
-# React + Vite
+THIS IS MY PERSONAL WEB POWERED BY VITEJS + REACTJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ALL YOU CAN SEE IN MY PERSONAL WEB:
+  - MY LATEST CV
+  - MY PORTOFOLIO
+  - MY SKILLS/TECHNOLOGIES
+  - MY SOCIAL MEDIA
 
-Currently, two official plugins are available:
+IF YOU WANT TO HIRE ME JUST VISIT MY WEB
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  VIEW THE WEB : https://rizky-personal-web.vercel.app
