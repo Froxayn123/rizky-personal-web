@@ -110,4 +110,4 @@ const skills = [
   },
 ];
 
-export { skills };
+export default skills;
