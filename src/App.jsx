@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Navbar from "./pages/Navbar";
 import Jumbotron from "./pages/Jumbotron";
 import Portofolio from "./pages/Portofolio";
@@ -33,6 +34,7 @@ const App = () => {
         </div>
       </footer>
       <Analytics />
+      <SpeedInsights />
     </>
   );
 };
