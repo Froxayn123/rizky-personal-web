@@ -11,7 +11,7 @@ import EXPRESSJS from "../assets/ExpressJS.png";
 import REACTJS from "../assets/ReactJS.png";
 import NODEJS from "../assets/NodeJS.png";
 
-const Skillss = [
+const skills = [
   {
     id: "html",
     name: "HTML",
@@ -110,4 +110,4 @@ const Skillss = [
   },
 ];
 
-export { Skillss };
+export { skills };
