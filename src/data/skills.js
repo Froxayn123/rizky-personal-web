@@ -44,7 +44,7 @@ const skills = [
     name: "GitHub",
     level: 3,
     desc: "SkillFul",
-    img: "assets/Github.png",
+    img: "assets/GitHub.png",
     color: "text-white",
   },
   {
@@ -60,7 +60,7 @@ const skills = [
     name: "Bootstrap",
     level: 3,
     desc: "Skillful",
-    img: "assets/Bootstrap.png",
+    img: "assets/BootStrap.png",
     color: "text-purple-500",
   },
   {
