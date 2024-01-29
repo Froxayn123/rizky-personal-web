@@ -1,23 +1,10 @@
-import HTML from "/public/assets/HTML.png";
-import CSS from "/public/assets/CSS.png";
-import JS from "/public/assets/JS.png";
-import PHP from "/public/assets/PHP.png";
-import GIT from "/public/assets/GIT.png";
-import GITHUB from "/public/assets/Github.png";
-import TAILWINDCSS from "/public/assets/TailwindCSS.png";
-import BOOTSTRAP from "/public/assets/Bootstrap.png";
-import MONGODB from "/public/assets/MongoDB.png";
-import EXPRESSJS from "/public/assets/ExpressJS.png";
-import REACTJS from "/public/assets/ReactJS.png";
-import NODEJS from "/public/assets/NodeJS.png";
-
 const skills = [
   {
     id: "html",
     name: "HTML",
     level: 3,
     desc: "Skillful",
-    img: HTML,
+    img: "assets/HTML.png",
     color: "text-orange-400",
   },
   {
@@ -25,7 +12,7 @@ const skills = [
     name: "CSS",
     level: 3,
     desc: "Skillful",
-    img: CSS,
+    img: "assets/CSS.png",
     color: "text-sky-400",
   },
   {
@@ -33,7 +20,7 @@ const skills = [
     name: "JS",
     level: 3,
     desc: "Skillful",
-    img: JS,
+    img: "assets/JS.png",
     color: "text-yellow-300",
   },
   {
@@ -41,7 +28,7 @@ const skills = [
     name: "PHP",
     level: 2,
     desc: "Beginner",
-    img: PHP,
+    img: "assets/PHP.png",
     color: "text-[#435184]",
   },
   {
@@ -49,7 +36,7 @@ const skills = [
     name: "Git",
     level: 3,
     desc: "SkillFul",
-    img: GIT,
+    img: "assets/GIT.png",
     color: "text-red-400",
   },
   {
@@ -57,7 +44,7 @@ const skills = [
     name: "GitHub",
     level: 3,
     desc: "SkillFul",
-    img: GITHUB,
+    img: "assets/Github.png",
     color: "text-white",
   },
   {
@@ -65,7 +52,7 @@ const skills = [
     name: "TailwindCSS",
     level: 3,
     desc: "Skillful",
-    img: TAILWINDCSS,
+    img: "assets/TailwindCSS.png",
     color: "text-sky-500",
   },
   {
@@ -73,7 +60,7 @@ const skills = [
     name: "Bootstrap",
     level: 3,
     desc: "Skillful",
-    img: BOOTSTRAP,
+    img: "assets/Bootstrap.png",
     color: "text-purple-500",
   },
   {
@@ -81,7 +68,7 @@ const skills = [
     name: "MongoDB",
     level: 1,
     desc: "Newbie",
-    img: MONGODB,
+    img: "assets/MongoDB.png",
     color: "text-green-400",
   },
   {
@@ -89,7 +76,7 @@ const skills = [
     name: "ExpressJS",
     level: 2,
     desc: "Beginner",
-    img: EXPRESSJS,
+    img: "assets/ExpressJS.png",
     color: "text-white",
   },
   {
@@ -97,7 +84,7 @@ const skills = [
     name: "ReactJS",
     level: 3,
     desc: "Skillful",
-    img: REACTJS,
+    img: "assets/ReactJS.png",
     color: "text-sky-400",
   },
   {
@@ -105,9 +92,9 @@ const skills = [
     name: "NodeJS",
     level: 2,
     desc: "Beginner",
-    img: NODEJS,
+    img: "assets/NodeJS.png",
     color: "text-green-300",
   },
 ];
 
-export default skills;
+export { skills };

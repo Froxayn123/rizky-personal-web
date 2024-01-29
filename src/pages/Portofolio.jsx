@@ -1,5 +1,5 @@
 import Card from "../components/Card";
-import projects from "../data/projects";
+import { projects } from "../data/projects";
 
 const Portofolio = () => {
   const Projects = [];
