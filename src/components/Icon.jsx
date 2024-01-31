@@ -49,7 +49,7 @@ const Icon = (props) => {
     <>
       <div id={props.id} className="mt-5 p-3 w-80 flex justify-normal items-center outline outline-2 outline-[#5f5390] rounded-lg space-x-3 select-none">
         <div className="flex justify-center items-center">
-          <img src={props.src} alt="" className="w-14" />
+          <img src={props.src} alt="" className="w-14 rounded-full" />
         </div>
         <div className="w-full flex flex-col justify-normal space-y-2">
           <h1 className={`font-bold font-['Basic, sans-serif'] capitalize text-md ${props.color}`}>{props.name}</h1>
