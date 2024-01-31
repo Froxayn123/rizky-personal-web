@@ -14,7 +14,7 @@ const Social = () => {
             <Link href="https://discord.com/users/froxayn" text="discord" />
             <Link href="https://www.facebook.com/profile.php?id=100089106085513&mibextid=ZbWKwL" text="facebook" />
             <Link href="https://wa.me/message/CQEIZP26QLDVM1" text="whatsapp" />
-            <Link href="https://t.me/rizkymyusuf" text="telegram" />
+            <Link href="https://t.me/Froxayn" text="telegram" />
           </div>
           <div className="w-full space-y-16 max-md:space-y-8">
             <div className="h-1 bg-primary"></div>
