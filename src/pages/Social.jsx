@@ -12,7 +12,7 @@ const Social = () => {
             <Link href="https://www.linkedin.com/in/rizky-muhammad-yusuf-436b591b2" text="linkedin" />
             <Link href="https://github.com/Froxayn123" text="github" />
             <Link href="https://discord.com/users/froxayn" text="discord" />
-            <Link href="https://www.facebook.com/708iki" text="facebook" />
+            <Link href="https://www.facebook.com/profile.php?id=100089106085513&mibextid=ZbWKwL" text="facebook" />
             <Link href="https://wa.me/message/CQEIZP26QLDVM1" text="whatsapp" />
             <Link href="https://t.me/rizkymyusuf" text="telegram" />
           </div>
