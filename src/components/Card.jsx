@@ -10,7 +10,7 @@ const Card = (props) => {
 
   return (
     <>
-      <div id={props.id} data-aos="fade-down" data-aos-duration="2000" className="m-5 w-[500px] flex flex-col outline outline-2 outline-[#5f5390] rounded-lg">
+      <div id={props.id} data-aos="fade-down" data-aos-duration="2000" className="m-5 flex flex-col outline outline-2 outline-[#5f5390]  rounded-lg">
         <div className="relative" onMouseEnter={onHover} onMouseLeave={offHover}>
           <img src={props.src} alt="" className="rounded-lg hover:opacity-25 transition ease-in-out duration-300 cursor-pointer" onClick={() => (window.location.href = props.url)} />
           <div className="absolute left-1/2 top-1/2">

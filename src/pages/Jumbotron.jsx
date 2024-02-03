@@ -22,17 +22,17 @@ const Jumbotron = () => {
   return (
     <>
       <section id="jumbotron">
-        <div className="ms-24 me-24 space-y-20 max-md:m-6 max-md:space-y-80 max-lg:m-6 max-lg:space-y-6 max-lg:mt-0">
+        <div className="ms-24 me-24 pb-4 space-y-16 max-md:m-0 max-md:p-5 max-md:space-y-72  ">
           <div className="flex justify-between items-start max-md:flex-col max-md:space-y-8">
-            <h1 className="font-bold font-['Basic, sans-serif'] capitalize text-8xl select-none text-white max-md:text-4xl max-md:text-center max-lg:text-5xl">full stack web developer enthusiast</h1>
-            <div className="relative md:w-[700px]">
-              <div id="bar1" className="w-1 h-full bg-primary absolute end-0"></div>
+            <h1 className="font-bold font-['Basic, sans-serif'] capitalize text-8xl select-none text-white max-md:text-4xl max-md:text-center max-lg:text-6xl">full stack web developer enthusiast</h1>
+            <div className="relative">
+              <span id="bar1" className="w-1 h-full bg-primary absolute end-0"></span>
               <p id="p1" className="font-['Basic, sans-serif']  select-none text-slate-400 opacity-0 text-justify">
                 I used to design and build a website for personal and company, people often describe my work as magic
               </p>
             </div>
           </div>
-          <div className="max-md:space-y-14 space-y-20 max-lg:space-y-4">
+          <div className="max-md:space-y-8 space-y-20 max-lg:space-y-6">
             <div className="max-md:flex justify-center items-center">
               <Button
                 id="rightArrowTalk"

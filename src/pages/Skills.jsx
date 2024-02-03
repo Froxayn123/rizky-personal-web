@@ -16,7 +16,7 @@ const Skills = () => {
             <h1 className="font-semibold font-['Basic, sans-serif'] uppercase select-none text-4xl text-[#5f5390]">skills</h1>
             <h1 className="font-bold font-['Basic, sans-serif'] uppercase select-none text-7xl text-white max-md:text-4xl">technologies</h1>
           </div>
-          <div id="skillsWrapper" data-aos-easing="linear" className="flex justify-evenly items-center flex-wrap max-md:flex-col ">
+          <div id="skillsWrapper" data-aos-easing="linear" className="grid max-md:grid-cols-1 max-lg:grid-cols-2 grid-cols-3 ">
             {SKILLS}
           </div>
         </div>

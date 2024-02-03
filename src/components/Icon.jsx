@@ -12,7 +12,7 @@ const Icon = (props) => {
         })
         .add({
           targets: document.getElementById(props.id1),
-          width: 235,
+          width: 250,
           update: function (anim) {
             const progress = anim.progress;
             if (progress >= 0 && progress <= 20) {
@@ -35,7 +35,7 @@ const Icon = (props) => {
         })
         .add({
           targets: document.getElementById(props.id1),
-          width: props.level * 47,
+          width: props.level * 50,
           update: function () {
             if (props.desc) {
               document.getElementById(props.name).innerHTML = props.desc;
@@ -45,9 +45,10 @@ const Icon = (props) => {
         });
     }
   });
+
   return (
     <>
-      <div id={props.id} className="mt-5 p-3 w-80 flex justify-normal items-center outline outline-2 outline-[#5f5390] rounded-lg space-x-3 select-none">
+      <div id={props.id} className="m-5 p-3 flex justify-normal items-center outline outline-2 outline-[#5f5390] rounded-lg space-x-3 select-none">
         <div className="flex justify-center items-center">
           <img src={props.src} alt="" className="w-14 rounded-full" />
         </div>
@@ -56,7 +57,7 @@ const Icon = (props) => {
           <div
             id={props.id1}
             className="w-[0px] p-2 flex justify-center items-center font-bold font-['Basic, sans-serif'] text-white
-           bg-primary"
+            bg-primary"
           ></div>
           <h1 id={props.name} className={`font-bold font-['Basic, sans-serif'] capitalize text-md text-center text-white`}>
             {props.desc}

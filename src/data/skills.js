@@ -57,6 +57,14 @@ const skills = [
     color: "text-purple-500",
   },
   {
+    id: "reactjs",
+    name: "ReactJS",
+    level: 3,
+    desc: "Skillful",
+    img: "assets/ReactJS.png",
+    color: "text-sky-400",
+  },
+  {
     id: "typescript",
     name: "TypeScript",
     level: 2,
@@ -71,14 +79,6 @@ const skills = [
     desc: "Beginner",
     img: "assets/ExpressJS.png",
     color: "text-white",
-  },
-  {
-    id: "reactjs",
-    name: "ReactJS",
-    level: 3,
-    desc: "Skillful",
-    img: "assets/ReactJS.png",
-    color: "text-sky-400",
   },
   {
     id: "php",

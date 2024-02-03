@@ -16,8 +16,8 @@ const Portofolio = () => {
             <h1 className="font-semibold font-['Basic, sans-serif'] uppercase select-none text-4xl text-[#5f5390]">portofolio</h1>
             <h1 className="font-bold font-['Basic, sans-serif'] uppercase select-none text-7xl text-white max-md:text-4xl">Launched</h1>
           </div>
-          <div className="flex max-md:flex-col ">
-            <div id="cardWrapper" className="flex justify-evenly items-center flex-wrap ">
+          <div className="flex">
+            <div id="cardWrapper" className="grid max-md:grid-cols-1 max-lg:grid-cols-2 grid-cols-3">
               {Projects}
             </div>
           </div>
