@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
       <header>
-        <div className="md:h-screen bg-cover bg-center md:bg-desktop max-md:bg-mobile max-lg:bg-tablet">
+        <div className="bg-cover bg-center md:bg-desktop max-md:bg-mobile max-lg:bg-tablet">
           <Navbar />
           <Jumbotron />
         </div>
