@@ -12,7 +12,7 @@ const Icon = (props) => {
         })
         .add({
           targets: document.getElementById(props.id1),
-          width: 250,
+          width: "100%",
           update: function (anim) {
             const progress = anim.progress;
             if (progress >= 0 && progress <= 20) {
@@ -35,7 +35,7 @@ const Icon = (props) => {
         })
         .add({
           targets: document.getElementById(props.id1),
-          width: props.level * 50,
+          width: `${Math.floor((props.level / 5) * 100).toString()}%`,
           update: function () {
             if (props.desc) {
               document.getElementById(props.name).innerHTML = props.desc;
@@ -56,10 +56,10 @@ const Icon = (props) => {
           <h1 className={`font-bold font-['Basic, sans-serif'] capitalize text-md ${props.color}`}>{props.name}</h1>
           <div
             id={props.id1}
-            className="w-[0px] p-2 flex justify-center items-center font-bold font-['Basic, sans-serif'] text-white
+            className="w-0 p-2 flex justify-center items-center font-bold font-['Basic, sans-serif'] text-white
             bg-primary"
           ></div>
-          <h1 id={props.name} className={`font-bold font-['Basic, sans-serif'] capitalize text-md text-center text-white`}>
+          <h1 id={props.name} className={`font-bold font-['Basic, sans-serif'] capitalize text-md text-white`}>
             {props.desc}
           </h1>
         </div>
