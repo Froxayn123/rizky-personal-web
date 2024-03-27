@@ -7,7 +7,7 @@ export default {
         primary: "#a28bff",
       },
       backgroundImage: {
-        desktop: "url('/public/assets/bg.png')",
+        desktop: "url('/assets/bg.png')",
         mobile: "url('/public/assets/bg-mobile.png')",
         tablet: "url('/public/assets/bg-tablet.png')",
       },
