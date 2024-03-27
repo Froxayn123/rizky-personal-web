@@ -31,7 +31,7 @@ const Certificate = () => {
             <button onClick={prev} className="p-4 rounded-full shadow bg-[#5f5390] text-white">
               <ChevronLeft />
             </button>
-            <div className="flex justify-center items-center overflow-hidden relative">
+            <div className="flex justify-center items-center overflow-hidden relative outline outline-2 outline-[#5f5390] rounded-lg">
               <div className="w-[1007px] flex transition-transform ease-out duration-500 " style={{ transform: `translateX(-${curr * 100}%)` }}>
                 {Certificates}
               </div>
@@ -39,6 +39,13 @@ const Certificate = () => {
             <button onClick={next} className="p-4 rounded-full shadow bg-[#5f5390] text-white">
               <ChevronRight />
             </button>
+          </div>
+          <div>
+            <div className="flex justify-center items-center space-x-2">
+              {Certificates.map((_, i) => (
+                <div key={_} className={`transition-all w-3 h-3 bg-[#5f5390] rounded-full ${curr == i ? "p-2" : "bg-opacity-50"}`}></div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
