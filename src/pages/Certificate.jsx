@@ -23,9 +23,9 @@ const Certificate = () => {
     <>
       <section id="certificate">
         <div className="ps-24 pt-14 pe-24 flex flex-col space-y-8 max-md:p-2 max-md:pt-6 max-lg:p-6">
-          <div className="space-y-5 max-md:text-center max-md:space-y-2">
-            <h1 className="font-semibold font-['Basic, sans-serif'] uppercase select-none text-end text-4xl text-[#5f5390]">certificates</h1>
-            <h1 className="font-bold font-['Basic, sans-serif'] uppercase select-none text-7xl text-white text-end max-md:text-4xl">acquired</h1>
+          <div className="md:flex md:flex-col md:justify-end md:items-end space-y-5 max-md:text-center max-md:space-y-2 ">
+            <h1 className="font-semibold font-['Basic, sans-serif'] uppercase select-none text-4xl text-[#5f5390]">certificates</h1>
+            <h1 className="font-bold font-['Basic, sans-serif'] uppercase select-none text-7xl text-white max-md:text-4xl">acquired</h1>
           </div>
           <div className="flex justify-center items-center space-x-2">
             <button onClick={prev} className="p-4 rounded-full shadow bg-[#5f5390] text-white">
