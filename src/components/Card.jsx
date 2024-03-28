@@ -13,8 +13,8 @@ const Card = (props) => {
       <div id={props.id} data-aos="fade-down" data-aos-duration="2000" className="m-5 flex flex-col outline outline-2 outline-[#5f5390]  rounded-lg">
         <div className="relative" onMouseEnter={onHover} onMouseLeave={offHover}>
           <img src={props.src} alt="" className="rounded-lg hover:opacity-25 transition ease-in-out duration-300 cursor-pointer" onClick={() => (window.location.href = props.url)} />
-          <div className="absolute left-1/2 top-1/2">
-            <h1 id={props.idH1} className="font-bold font-['Basic, sans-serif'] uppercase cursor-pointer text-white transition opacity-0 duration-300 ease-in-out relative -left-1/2 -top-1/2">
+          <div className="absolute inset-20 flex justify-center items-center">
+            <h1 id={props.idH1} className="font-bold font-['Basic, sans-serif'] uppercase cursor-pointer text-white transition opacity-0 duration-300 ease-in-out">
               Click to View
             </h1>
           </div>
