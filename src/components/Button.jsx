@@ -31,9 +31,9 @@ const Button = (props) => {
 
 Button.propTypes = {
   id: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
+  url: PropTypes.string,
   type: PropTypes.string.isRequired,
-  text: PropTypes.number.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 export default Button;

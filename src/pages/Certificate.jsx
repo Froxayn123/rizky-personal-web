@@ -8,7 +8,7 @@ const Certificate = () => {
   const [curr, setCurr] = useState(0);
 
   for (let i = 0; i < certificates.length; i++) {
-    Certificates.push(<img src={certificates[0].img} />);
+    Certificates.push(<img key={certificates[i].credentialId} src={certificates[i].img} />);
   }
 
   const prev = () => {
@@ -27,25 +27,18 @@ const Certificate = () => {
             <h1 className="font-semibold font-['Basic, sans-serif'] uppercase select-none text-4xl text-[#5f5390]">certificates</h1>
             <h1 className="font-bold font-['Basic, sans-serif'] uppercase select-none text-7xl text-white max-md:text-4xl">acquired</h1>
           </div>
-          <div className="flex justify-center items-center space-x-2">
-            <button onClick={prev} className="p-4 rounded-full shadow bg-[#5f5390] text-white">
+          <div className="flex justify-center items-center space-x-2 max-md:p-2 max-md:pt-6 max-lg:p-6">
+            <button onClick={prev} className="p-4 rounded-full shadow bg-[#5f5390] text-white max-md:hidden">
               <ChevronLeft />
             </button>
-            <div className="flex justify-center items-center overflow-hidden relative outline outline-2 outline-[#5f5390] rounded-lg">
+            <div className="flex justify-center items-center overflow-auto relative outline outline-2 outline-[#5f5390] rounded-lg">
               <div className="w-[1007px] flex transition-transform ease-out duration-500 " style={{ transform: `translateX(-${curr * 100}%)` }}>
                 {Certificates}
               </div>
             </div>
-            <button onClick={next} className="p-4 rounded-full shadow bg-[#5f5390] text-white">
+            <button onClick={next} className="p-4 rounded-full shadow bg-[#5f5390] text-white max-md:hidden">
               <ChevronRight />
             </button>
-          </div>
-          <div>
-            <div className="flex justify-center items-center space-x-2">
-              {Certificates.map((_, i) => (
-                <div key={_} className={`transition-all w-3 h-3 bg-[#5f5390] rounded-full ${curr == i ? "p-2" : "bg-opacity-50"}`}></div>
-              ))}
-            </div>
           </div>
         </div>
       </section>

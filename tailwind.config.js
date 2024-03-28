@@ -8,8 +8,8 @@ export default {
       },
       backgroundImage: {
         desktop: "url('/assets/bg.png')",
-        mobile: "url('/public/assets/bg-mobile.png')",
-        tablet: "url('/public/assets/bg-tablet.png')",
+        mobile: "url('/assets/bg-mobile.png')",
+        tablet: "url('/assets/bg-tablet.png')",
       },
     },
   },
