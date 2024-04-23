@@ -2,12 +2,6 @@ import Card from "../components/Card";
 import { projects } from "../data/projects";
 
 const Portofolio = () => {
-  const Projects = [];
-
-  for (let i = 0; i < projects.length; i++) {
-    Projects.push(<Card key={i} id={projects[i].id} idH1={`idH1${i}`} src={projects[i].img} name={projects[i].name} desc={projects[i].desc} url={projects[i].url} part={projects[i].part} workFor={projects[i].workFor} />);
-  }
-
   return (
     <>
       <section id="portofolio">
@@ -18,7 +12,9 @@ const Portofolio = () => {
           </div>
           <div className="flex">
             <div id="cardWrapper" className="grid max-md:grid-cols-1 max-lg:grid-cols-2 grid-cols-3">
-              {Projects}
+              {projects.map((project, i) => {
+                return <Card key={project.id} idH1={`idH1${i}`} src={project.img} name={project.name} desc={project.desc} url={project.url} part={project.part} workFor={project.workFor} />;
+              })}
             </div>
           </div>
         </div>
