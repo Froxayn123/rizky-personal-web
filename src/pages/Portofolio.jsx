@@ -13,7 +13,7 @@ const Portofolio = () => {
           <div className="flex">
             <div id="cardWrapper" className="grid max-md:grid-cols-1 max-lg:grid-cols-2 grid-cols-3">
               {projects.map((project, i) => {
-                return <Card key={project.id} idH1={`idH1${i}`} src={project.img} name={project.name} desc={project.desc} url={project.url} part={project.part} workFor={project.workFor} />;
+                return <Card key={project.id} idS1={`idS1${i}`} idS2={`idS2${i}`} src={project.img} name={project.name} desc={project.desc} url={project.url} part={project.part} workFor={project.workFor} />;
               })}
             </div>
           </div>
