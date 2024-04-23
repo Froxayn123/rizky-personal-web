@@ -2,12 +2,6 @@ import { skills } from "../data/skills";
 import Icon from "../components/Icon";
 
 const Skills = () => {
-  const SKILLS = [];
-
-  for (let i = 0; i < skills.length; i++) {
-    SKILLS.push(<Icon id={skills[i].id} id1={`id${skills[i].id}`} src={skills[i].img} name={skills[i].name} level={skills[i].level} desc={skills[i].desc} color={skills[i].color} />);
-  }
-
   return (
     <>
       <section id="skills">
@@ -17,7 +11,9 @@ const Skills = () => {
             <h1 className="font-bold font-['Basic, sans-serif'] uppercase select-none text-7xl text-white max-md:text-4xl">technologies</h1>
           </div>
           <div id="skillsWrapper" data-aos-easing="linear" className="grid max-md:grid-cols-1 max-lg:grid-cols-2 grid-cols-3 ">
-            {SKILLS}
+            {skills.map((skill) => {
+              return <Icon key={skill.id} id={skill.id} id1={`id${skill.id}`} src={skill.img} name={skill.name} level={skill.level} desc={skill.desc} color={skill.color} />;
+            })}
           </div>
         </div>
       </section>
