@@ -44,6 +44,15 @@ const projects = [
     img: "assets/project-5.png",
     url: "https://froxayn123.github.io/love-language-web",
   },
+  {
+    id: "bookstore",
+    name: "Bookstore Web App",
+    desc: "A web application using MERN stack which can store your book",
+    part: "full-stack",
+    workFor: "individual",
+    img: "assets/project-6.png",
+    url: "https://bookstore-web-app-pi.vercel.app/",
+  },
 ];
 
 export { projects };
