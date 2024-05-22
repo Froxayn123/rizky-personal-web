@@ -20,7 +20,7 @@ const projects = [
   {
     id: "bookhouseapps",
     name: "bookhouse apps",
-    desc: "A web application using ReactJS which can find books powered by Google Books",
+    desc: "A web application using ReactJS & Google Books API which can find books powered by Google Books",
     part: "front-end",
     workFor: "individual",
     img: "assets/project-3.png",
