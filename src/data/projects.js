@@ -11,7 +11,7 @@ const projects = [
   {
     id: "bookshelfapps",
     name: "bookshelf apps",
-    desc: "A web application using ReactJS & Local Web Storage which can list your books",
+    desc: "A web application using HTML, CSS, JavaScript & Local Web Storage which can list your books",
     part: "front-end",
     workFor: "individual",
     img: "assets/project-2.png",
