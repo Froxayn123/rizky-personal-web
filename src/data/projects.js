@@ -53,6 +53,15 @@ const projects = [
     img: "assets/project-6.png",
     url: "https://bookstore-web-app-pi.vercel.app/",
   },
+  {
+    id: "fintrax",
+    name: "FinTrax Web App",
+    desc: "A web application using MERN stack which can manage your finance",
+    part: "full-stack",
+    workFor: "Team",
+    img: "assets/project-7.png",
+    url: "https://fintrax-web-app.vercel.app/",
+  },
 ];
 
 export { projects };
