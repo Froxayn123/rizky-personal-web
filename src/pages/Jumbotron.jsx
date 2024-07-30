@@ -13,12 +13,7 @@ const Jumbotron = () => {
           </div>
           <div className="max-md:space-y-8 space-y-20 max-lg:space-y-6">
             <div className="max-md:flex justify-center items-center">
-              <Button
-                id="rightArrowTalk"
-                text="Download CV"
-                type="button"
-                url="https://drive.google.com/file/d/1GILMjIW6yZAWKdypImscICnBA1mSf5QQ/view?usp=sharing"
-              />
+              <Button id="rightArrowTalk" text="Download CV" type="button" url="https://drive.google.com/file/d/1815MUaqQjzjRCVkAFeP4ye4KDzXGXSnV/view?usp=sharing" />
             </div>
             <div className="max-md:flex justify-center items-center">
               <h1 className="font-['Basic, sans-serif'] capitalize text-md select-none text-slate-400">Based in Bandung, Indonesia</h1>
