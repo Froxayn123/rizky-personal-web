@@ -72,14 +72,14 @@ const projects = [
     url: "https://promptopia-forum.vercel.app/",
   },
   {
-    id: "pelangco",
-    name: "Peluang.co",
-    desc: "Peluang.co adalah Platform Ekosistem untuk bisnis kemitraan dan waralaba di Indonesia.",
-    part:"Web Developer Intern",
+    id: "mitranesiaid",
+    name: "Mitranesia.id",
+    desc: "Mitranesia.id is an Ecosystem Platform for partnership and franchise businesses in Indonesia.",
+    part: "Web Developer Intern",
     workFor: "PT Peluang Bersama Kita",
     img: "assets/project-9.png",
-    url: "https://peluang.co",
-  }
+    url: "https://mitranesia.id",
+  },
 ];
 
 export { projects };
