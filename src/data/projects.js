@@ -1,12 +1,12 @@
 const projects = [
   {
-    id: "todoapps",
-    name: "to-do apps",
-    desc: "A web application using HTML, CSS, JavaScript which can list your to-do list",
-    part: "front-end",
+    id: "quickblog",
+    name: "Quickblog Web App",
+    desc: "A web application using MERN Stack which can generate and publish a blog powered by Gemini AI",
+    part: "Fullstack",
     workFor: "Individual",
     img: "assets/project-1.png",
-    url: "https://froxayn123.github.io/todoapps/",
+    url: "https://quickblog-rkhexltru-froxayns-projects.vercel.app",
   },
   {
     id: "bookshelfapps",
