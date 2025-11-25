@@ -6,7 +6,7 @@ const projects = [
     part: "Fullstack",
     workFor: "Individual",
     img: "assets/project-1.png",
-    url: "https://quickblog-rkhexltru-froxayns-projects.vercel.app",
+    url: "https://quickblog-client-app.vercel.app/",
   },
   {
     id: "bookshelfapps",
