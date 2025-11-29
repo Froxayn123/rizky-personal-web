@@ -9,13 +9,13 @@ const projects = [
     url: "https://quickblog-client-app.vercel.app/",
   },
   {
-    id: "bookshelfapps",
-    name: "bookshelf apps",
-    desc: "A web application using HTML, CSS, JavaScript & Local Web Storage which can list your books",
-    part: "front-end",
+    id: "quickstay",
+    name: "Quickstay Web App",
+    desc: "A web application using MERN Stack which can list, book, and manage your Hotel",
+    part: "Fullstack",
     workFor: "Individual",
     img: "assets/project-2.png",
-    url: "https://froxayn123.github.io/bookshelfapps/",
+    url: "https://quickstay-client-app.vercel.app/",
   },
   {
     id: "bookhouseapps",
