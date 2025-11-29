@@ -11,7 +11,7 @@ const projects = [
   {
     id: "quickstay",
     name: "Quickstay Web App",
-    desc: "A web application using MERN Stack which can list, book, and manage your Hotel",
+    desc: "A web application using MERN Stack which can list, book, pay, and manage your Hotel",
     part: "Fullstack",
     workFor: "Individual",
     img: "assets/project-2.png",
