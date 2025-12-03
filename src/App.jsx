@@ -10,6 +10,7 @@ import Social from "./pages/Social";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Certificate from "./pages/Certificate";
+import Experience from "./pages/Experience";
 // ..
 AOS.init();
 
@@ -25,6 +26,7 @@ const App = () => {
       <main>
         <div className="bg-[#161517]">
           <Certificate />
+          <Experience />
           <Portofolio />
           {/* <Skills /> */}
           <Forms />
