@@ -38,7 +38,7 @@ const projects = [
   {
     id: "peluangco",
     name: "Peluang.co",
-    desc: "Peluang.co (Client Website) is an ecosystem platform for partnership and franchise businesses in Indonesia.",
+    desc: "Peluang.co (Client Website) is an ecosystem platform for partnership and franchise MSMEs in Indonesia.",
     part: "Fullstack",
     workFor: "Thesis",
     img: "assets/project-5.png",
@@ -47,7 +47,7 @@ const projects = [
   {
     id: "peluangco",
     name: "Peluang.co",
-    desc: "Peluang.co (Dashboard Website) is an ecosystem platform for partnership and franchise businesses in Indonesia.",
+    desc: "Peluang.co (Dashboard Website) is an ecosystem platform for partnership and franchise MSMEs in Indonesia.",
     part: "Fullstack",
     workFor: "Thesis",
     img: "assets/project-6.png",
