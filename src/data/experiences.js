@@ -11,7 +11,7 @@ const experiences = [
   {
     id: "mitranesiaid",
     name: "Mitranesia.id",
-    desc: "Mitranesia.id is an ecosystem platform for partnership and franchise businesses in Indonesia.",
+    desc: "Mitranesia.id is an ecosystem platform for partnership and franchise MSMEs in Indonesia.",
     part: "Frontend Web Developer Intern",
     workFor: "PT Peluang Bersama Kita",
     img: "assets/experience-2.png",
