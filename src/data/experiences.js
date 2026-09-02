@@ -17,6 +17,33 @@ const experiences = [
     img: "assets/experience-2.png",
     url: "https://mitranesia.id",
   },
+  {
+    id: "mymovietv",
+    name: "My Movie TV",
+    desc: "My Movie TV is a video platform for watching, reading, and creating contents on MY MOVIE.",
+    part: "Full Stack Developer",
+    workFor: "PT ROAR ENTERTAINMENT & MARKETING (MY MOVIE)",
+    img: "assets/experience-3.png",
+    url: "https://mymovietv.com",
+  },
+  {
+    id: "mymovietvstudio",
+    name: "My Movie TV Studio",
+    desc: "My Movie TV Studio is CMS for My Movie TV.",
+    part: "Full Stack Developer",
+    workFor: "PT ROAR ENTERTAINMENT & MARKETING (MY MOVIE)",
+    img: "assets/experience-4.png",
+    url: "https://studio.mymovietv.com",
+  },
+  {
+    id: "removieling",
+    name: "My Movie Media",
+    desc: "My Movie Media is Company Profile of My Movie Media as a part of MY MOVIE.",
+    part: "Full Stack Developer",
+    workFor: "PT ROAR ENTERTAINMENT & MARKETING (MY MOVIE)",
+    img: "assets/experience-5.png",
+    url: "https://removieling.com",
+  },
 ];
 
 export { experiences };
